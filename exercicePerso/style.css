@@ -1,0 +1,180 @@
+*{
+  margin: 0;
+  font-family: 'Belleza', sans-serif;
+}
+
+/* Nav  */
+
+nav h1,h2 {font-size: 5%;
+
+}
+nav img{
+  height: 40px;
+  padding:0px 0px 0px 100px;
+}
+#blog{padding:5px 100px 5px 0px;
+  
+}
+
+li{
+  list-style: none;
+  display: inline-block;
+  
+  
+}
+#li{
+  width: 85%;
+  float: left;
+}
+
+nav a{
+  display: block;
+  /* height:1; */
+  text-decoration: none;
+  color: gray;
+  padding: 4px;
+
+}
+nav a:hover{
+  background-color:rgb(247, 243, 243);
+  color: #b48484;
+}
+
+li{
+  color:#b48484;
+}
+#logo{
+  float: left;
+}
+/* Main */
+main{
+  clear: both;
+}
+.imageDiv{
+  background-image: url("image/imgDiv1.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* First Section  */
+
+#firstSection{
+  display: flex;
+  flex-direction: column;
+  height:80vh ;
+}
+#firstSection h2{
+  display: flex;
+  height: 20%;
+  color: #415e51;
+  font-size: 30px;
+  align-items: end;
+  justify-content: center;
+}
+
+#threeBlockContainer{
+  height: 70% ;
+  float: left;
+  width: auto;
+ 
+}
+
+#firstBlock{
+  box-sizing: border-box;
+  margin-left: 12%;
+  margin-top: 3%;
+  float: left;
+  height: 85%;
+  width: 23%;
+  background-color: #2d6176;
+  transition: all 0.2s ease;
+
+}
+#firstBlock:hover{
+  
+  height: 90%;
+  width: 25%;
+  transition: all 0.2s ease;
+}
+#secondBlock{
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 3%;
+  height: 85%;
+  width: 23%;
+  background-color: #d9b556;
+  transition: all 0.2s ease;
+
+}
+#secondBlock:hover{
+  height: 90%;
+  width: 25%;
+  transition: all 0.2s ease;
+}
+#thirdBlock{
+  float: left;
+  margin-right: 12%;
+  margin-top: 3%;
+  height: 85%;
+  width: 23%;
+  background-color: #e4bfb0;
+  transition: all 0.2s ease;
+
+}
+#thirdBlock:hover{
+  height: 90%;
+  width: 25%;
+  transition: all 0.2s ease;
+}
+
+/* image block couleur */
+
+#firstBlock img{
+  height: 70%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+#firstBlock p{
+  text-align: center;
+  color: white;
+  height: 30%;
+  font-size: 40px;
+}
+
+#secondBlock img{
+  height: 70%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+#secondBlock p{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+#thirdBlock img{
+  height: 70%;
+  margin-left: 15%;
+  margin-top: 3%;
+}
+#thirdBlock p{
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+/* Section 2 */
+.blockSection2{
+  width: auto;
+  height: 50vh;
+  background-color: #ad5e50 ;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+.blockSection2 p{
+ padding-top: 200px;
+}
+

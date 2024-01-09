@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <!-- jeu de caractère universel -->
+    <meta charset="UTF-8" />
+    <!-- comportement par défaut du navigateur en fonction de la taille de l'écran -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  nom du titre suivi / du site de la page -->
+    <!-- texte qui parle du contenu de la page une ou deux phrases
+    <meta description=""/> -->
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+    <p>
+      <a
+        href="https://www.youtube.com/"
+        target="_blank"
+        title=" acceder a Youtube.com "
+        >Lorem</a
+      >
+      ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatibus
+      corrupti blanditiis sunt provident vel nostrum ipsum omnis, dignissimos
+      perspiciatis reprehenderit, sed illum molestias ullam quo inventore
+      incidunt? Sapiente, ullam? Lorem ipsum dolor, sit amet consectetur
+      adipisicing elit.<br />
+      Sint tempora blanditiis animi necessitatibus hic? Dolores iste quasi
+      numquam accusamus magnam mollitia totam velit quos dicta repellat, et
+      distinctio voluptatem explicabo!
+    </p>
+    <img src="chili.jpeg" alt="Piment" />
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum quos
+      harum quaerat saepe vitae distinctio ratione tenetur fugit unde corrupti
+      quis enim, excepturi amet temporibus sed culpa sint expedita provident.
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad facilis
+      dignissimos itaque quis, corrupti aliquam ullam illum, omnis dolor ab hic
+      commodi natus doloribus veniam cupiditate minima ut odit veritatis.
+    </p>
+    <!-- LISTE -->
+    <ul>
+      <li>
+        element liste 1
+        <ul>
+          <li>liste 2</li>
+          <li>liste 2</li>
+        </ul>
+      </li>
+      <li>element liste 2</li>
+    </ul>
+    <ol>
+      <li>element liste 1</li>
+      <li>element liste 2</li>
+    </ol>
+    <!-- TABLEAUX -->
+    <table border="1">
+      <caption>
+        Nom du tableau ou légende
+      </caption>
+      <tr>
+        <th scope="row">Case 1</th>
+        <td>Case 2</td>
+      </tr>
+      <tr>
+        <th scope="row">Case 3</th>
+        <td>Case 4</td>
+        <td>Case 5</td>
+      </tr>
+    </table>
+    <br />
+    <table border="1" width="800" height="600">
+      <tr>
+        <td>Case</td>
+        <td colspan="3">Case</td>
+      </tr>
+      <tr>
+        <td>Case</td>
+        <td rowspan="2">Case</td>
+        <td>Case</td>
+        <td>Case</td>
+      </tr>
+      <tr>
+        <td>Case</td>
+        <td>Case</td>
+        <td>Case</td>
+      </tr>
+    </table>
+
+    <h1>Séance 2</h1>
+    <h2>Fusion de cellule</h2>
+    <table border="1" width="500" height="500">
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td colspan="2" bgcolor="green">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td rowspan="3" bgcolor="green">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td rowspan="2" colspan="2" bgcolor="green">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td colspan="3" bgcolor="green">&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td rowspan="5" bgcolor="green">&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td colspan="3" bgcolor="green">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td rowspan="2" bgcolor="green">&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+    <h2>Les balises de formulaire</h2>
+    <form method="post" action="../../...php">
+      <!--l'attribut 'action' donne le chemin de la page php où va être envoyé le formulaire-->
+      <label for="connexion">Nom</label>
+      <!--indique ce que l'on attend dans le formulaire-->
+      <!--l'attribue 'for' permet d'associer la balise à l'identifiant-->
+      <input type="text" id="lastname" placeholder="Votre nom" />
+      <!--l'attribut 'placeholder' indique dans le champs à remplir ce que l'on attend, mais ce n'est pas suffisant-->
+      <!-- chaque balise doit avoir son identifiant, il doit avoir un nom unique-->
+      <!--l'identifiant sers à identifier la balise-->
+      <input type="date" />
+      <!--affiche un calendrier pour saisir une date
+                        il y a plein d'autre style de 'type' -- password, nombre, mail....) -->
+      <input type="texte" required />
+      <!--l'attribue 'required' oblige à remplir le champs désigné avant de pouvoir valider (dans ce cas là, il vaut mieux prévenir l'utilisateur avec un *)-->
+      <textearea></textearea>
+      <!--ATTENTION, c'est une balise en paire-->
+      <!--chaque champ de saisi doit être rattaché à un label-->
+      <input type="submit" value="texte sur le bouton" />
+    </form>
+
+    <h2>La liste déroulante</h2>
+    <select>
+      <option>Sélectionner.......</option>
+      <!--marquer ce que l'on veut qui apparaisse par défaut sur la liste déroulante-->
+      <option>a</option>
+      <option>b</option>
+      <option>c</option>
+      <option>d</option>
+    </select>
+
+    <!-- l'intérer des listes déroulante est d'avoir une réponse précise et unique. On limite les erreurs de saisi-->
+  </body>
+</html>

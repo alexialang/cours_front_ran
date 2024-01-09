@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulaires</title>
+  </head>
+  <body>
+    <h1>Exercice 1: Les formulaire</h1>
+    <h2>Formulaire de connexion</h2>
+    <form method="post" action="../../...php">
+      <label for="lastname">Se connecter</label>
+      <input
+        type="text"
+        id="identifiant"
+        placeholder="Votre identifiant"
+        required
+      />
+      <input
+        type="password"
+        id="password"
+        placeholder="Votre mot de passe"
+        required
+      />
+      <textearea></textearea>
+      <input type="submit" value="connexion" />
+    </form>
+    <h2>Formulaire de prise de contact</h2>
+    <form action="" method="post">
+      <label for="name">Nom :</label>
+      <input type="text" id="nom" name="nom" required /><br /><br />
+
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="message">Message :</label><br />
+      <textarea
+        style="height: 100px"
+        id="message"
+        name="message"
+        required
+      ></textarea
+      ><br /><br />
+
+      <input type="submit" value="Envoyer" />
+    </form>
+
+    <h2>Formulaire d'inscription</h2>
+    <h3>Inscription</h3>
+    <form action="traitement.php" method="post">
+      <label for="nom">Nom :</label>
+      <input type="text" id="nom" name="nom" required /><br /><br />
+
+      <label for="prenom">Prénom :</label>
+      <input type="text" id="prenom" name="prenom" required /><br /><br />
+
+      <label for="email">E-mail :</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label>Date de Naissance :</label>
+      <input type="number" id="jour" name="jour" placeholder="JJ" required />
+      <input type="number" id="mois" name="mois" placeholder="MM" required />
+      <input
+        type="number"
+        id="annee"
+        name="annee"
+        placeholder="AAAA"
+        required
+      /><br /><br />
+
+      <label for="adresse">Adresse :</label>
+      <textarea id="adresse" name="adresse" rows="4" required></textarea
+      ><br /><br />
+
+      <input type="submit" value="S'inscrire" />
+    </form>
+  </body>
+</html>

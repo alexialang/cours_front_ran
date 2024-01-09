@@ -1,0 +1,23 @@
+/* @media print(a l'impession)  ou screen */
+a{
+  color: red;
+}
+.container{
+  width: 75%;
+  margin: auto;
+}
+@media(max-width:800px) and (min-width:600px){
+  a{
+    color: blue;
+  }
+  .container{
+    width: 100%;
+  }
+}
+@media(max-width:600px) {
+
+}
+
+a[target="_blank"]{ 
+  color: brown
+}
